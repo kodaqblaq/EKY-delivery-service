@@ -1,0 +1,39 @@
+/* body {
+    /* margin: 0;
+    padding: 0;
+    background-image: url(client.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+h1 {
+  text-align: center;
+}
+.container {
+  margin-top: 20%;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  color: cornsilk;
+}
+.form-group {
+  padding-top: 20px;
+}
+.form-data {
+  width: 30%;
+  height: 5.5ch;
+  border-radius: 10px;
+  border: none;
+  background: whitesmoke;
+  outline: none;
+  color: black;
+  font-size: medium;
+}
+
+.submit {
+  padding: 20px;
+  border: none;
+  background: none;
+}
+/*take note that the site is already responsive so theres no need to create a media query 
+  it some how automatialy responsise to every resolution and i think its ok */
